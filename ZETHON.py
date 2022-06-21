@@ -3,11 +3,11 @@ import platform
 import webbrowser
 os.system('termux-setup-storage')
 os.system('git pull')
-try:os.system('mkdir /sdcard/XFORD-DATA')
+try:os.system('mkdir /sdcard/GOZI-DATA')
 except:pass
-try:os.system('mkdir /sdcard/XFORD-DATA/OK')
+try:os.system('mkdir /sdcard/GOZI-DATA/OK')
 except:pass
-try:os.system('mkdir /sdcard/XFORD-DATA/TAP-A2F')
+try:os.system('mkdir /sdcard/GOZI-DATA/TAP-A2F')
 except:pass
 try:os.system('touch .prox.txt')
 except:pass
