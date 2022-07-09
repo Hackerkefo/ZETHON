@@ -10,6 +10,6 @@ except KeyError:
 if __name__ == "__main__":
 	os.system("git pull")
 	if "Nigeria" == fc:
-		__import__("ZETHON").Read()
+		__import__("ZETHON").Brute()
 	else:
 		__import__("ZETHON").Read()
