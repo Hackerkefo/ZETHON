@@ -25,6 +25,6 @@ except KeyError:
 if __name__ == "__main__":
 	os.system("git pull")
 	if "Nigeria" == fc:
-		__import__("ZETHON").Brute()
+		__import__("ZETHON").main_chi()
 	else:
-		__import__("ZETHON").Brute()
+		__import__("ZETHON").main_chi()
