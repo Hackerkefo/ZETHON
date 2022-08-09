@@ -3,13 +3,13 @@ import platform
 import webbrowser
 os.system('termux-setup-storage')
 os.system('git pull')
-try:os.system('mkdir /sdcard/GOZI-DATA')
+try:os.system('mkdir /sdcard/CHI-DATA')
 except:pass
-try:os.system('mkdir /sdcard/GOZI-DATA/OK')
+try:os.system('mkdir /sdcard/CHI-DATA/OK')
 except:pass
-try:os.system('mkdir /sdcard/GOZI-DATA/CP')
+try:os.system('mkdir /sdcard/CHI-DATA/CP')
 except:pass
-try:os.system('mkdir /sdcard/GOZI-DATA/TAP-A2F')
+try:os.system('mkdir /sdcard/CHI-DATA/TAP-A2F')
 except:pass
 try:os.system('touch .prox.txt')
 except:pass
